@@ -9,19 +9,19 @@ import Foundation
 import SwiftUI
 
 enum TopLIstContent: String, CaseIterable {
-    case first
+    case tutorial
     
     var title: String {
         switch self {
-        case .first:
-            return "First SwiftUI View"
+        case .tutorial:
+            return "Tutorial"
         }
     }
     
     var view: some View {
         switch self {
-        case .first:
-            FirstView()
+        case .tutorial:
+            TutorialContentView()
         }
     }
 }
