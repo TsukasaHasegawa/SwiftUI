@@ -1,0 +1,5 @@
+.DS_Store
+*.swp // これも指定しておくと便利
+
+// Xcodeのxcuserstateを無視する
+UserInterfaceState.xcuserstate

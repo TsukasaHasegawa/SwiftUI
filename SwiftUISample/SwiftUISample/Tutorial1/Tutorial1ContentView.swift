@@ -1,5 +1,5 @@
 //
-//  TutorialContentView.swift
+//  Tutorial1ContentView.swift
 //  SwiftUISample
 //
 //  Created by 長谷川司 on 2024/03/30.
@@ -8,14 +8,17 @@
 import Foundation
 import SwiftUI
 
-struct TutorialContentView: View {
+/// Creating and combining views
+///
+/// https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+struct Tutorial1ContentView: View {
     var body: some View {
         VStack {
-            TutorialMapView()
+            Tutorial1MapView()
                 .frame(height: 300)
-            TutorialCircleImage()
-                .offset(y: -100)
-                .padding(.bottom,  -100)
+            Tutorial1CircleImage()
+                .offset(y: -130)
+                .padding(.bottom,  -130)
             VStack(alignment: .leading) {
                 Text("Turtle Rcok")
                     .font(.title)
@@ -40,5 +43,5 @@ struct TutorialContentView: View {
 }
 
 #Preview {
-    TutorialContentView()
+    Tutorial1ContentView()
 }

@@ -1,5 +1,5 @@
 //
-//  TutorialCircleImage.swift
+//  Tutorial1CircleImage.swift
 //  SwiftUISample
 //
 //  Created by 長谷川司 on 2024/03/30.
@@ -7,14 +7,9 @@
 
 import SwiftUI
 
-struct TutorialCircleImage: View {
+struct Tutorial1CircleImage: View {
     var body: some View {
-        Image(systemName: "globe")
-            .resizable()
-            .frame(width: 200, height: 200)
-            .scaledToFill()
-            .background(.white)
-            .foregroundStyle(.tint)
+        Image("turtlerock")
             .clipShape(Circle())
             .overlay {
                 Circle().stroke(.white, lineWidth: 4)
@@ -25,5 +20,5 @@ struct TutorialCircleImage: View {
 }
 
 #Preview {
-    TutorialCircleImage()
+    Tutorial1CircleImage()
 }

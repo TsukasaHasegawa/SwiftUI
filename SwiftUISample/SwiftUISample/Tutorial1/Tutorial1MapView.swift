@@ -1,5 +1,5 @@
 //
-//  TutorialMapView.swift
+//  Tutorial1MapView.swift
 //  SwiftUISample
 //
 //  Created by 長谷川司 on 2024/03/30.
@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct TutorialMapView: View {
+struct Tutorial1MapView: View {
     var body: some View {
         Map(initialPosition: .region(region))
     }
@@ -20,5 +20,5 @@ struct TutorialMapView: View {
 }
 
 #Preview {
-    TutorialMapView()
+    Tutorial1MapView()
 }
