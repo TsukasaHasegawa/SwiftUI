@@ -21,6 +21,13 @@ enum TopLIstContent: String, CaseIterable {
         }
     }
     
+    /// @ViewBuilder
+    ///
+    /// - note: @ViewBuilder属性はクロージャから階層構造のビューを構築するカスタムパラメータ属性。
+    /// - 公式リファレンス
+    ///   - https://developer.apple.com/documentation/swiftui/viewbuilder
+    /// - 参考になる記事
+    ///   - https://appdev-room.com/swift-viewbuilder
     @ViewBuilder
     var view: some View {
         switch self {
