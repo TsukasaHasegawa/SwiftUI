@@ -1,20 +1,20 @@
 //
-//  Tutorial2LandmarkList.swift
+//  TutorialLandmarkList.swift
 //  SwiftUISample
 //
-//  Created by 長谷川司 on 2024/03/31.
+//  Created by 長谷川司 on 2024/04/02.
 //
 
 import SwiftUI
 
-struct Tutorial2LandmarkList: View {
+struct TutorialLandmarkList: View {
     var body: some View {
         NavigationSplitView {
             List(landmarks) { landmark in
                 NavigationLink {
-                    Tutorial2LandmarkDetail(landmark: landmark)
+                    TutorialLandmarkDetail(landmark: landmark)
                 } label: {
-                    Tutorial2LandmarkRow(landmark: landmark)
+                    TutorialLandmarkRow(landmark: landmark)
                 }
             }
             .navigationTitle("Landmarks")
@@ -25,5 +25,5 @@ struct Tutorial2LandmarkList: View {
 }
 
 #Preview {
-    Tutorial2LandmarkList()
+    TutorialLandmarkList()
 }

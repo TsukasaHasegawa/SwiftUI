@@ -1,14 +1,14 @@
 //
-//  Tutorial2MapView.swift
+//  TutorialMapView.swift
 //  SwiftUISample
 //
-//  Created by 長谷川司 on 2024/03/31.
+//  Created by 長谷川司 on 2024/04/02.
 //
 
 import SwiftUI
 import MapKit
 
-struct Tutorial2MapView: View {
+struct TutorialMapView: View {
     var coordinate: CLLocationCoordinate2D
     
     var body: some View {
@@ -24,5 +24,5 @@ struct Tutorial2MapView: View {
 }
 
 #Preview {
-    Tutorial2MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
+    TutorialMapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
 }

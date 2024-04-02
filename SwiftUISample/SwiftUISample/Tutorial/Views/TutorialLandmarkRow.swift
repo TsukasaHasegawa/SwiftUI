@@ -1,14 +1,14 @@
 //
-//  Tutorial2LandmarkRow.swift
+//  TutorialLandmarkRow.swift
 //  SwiftUISample
 //
-//  Created by 長谷川司 on 2024/03/31.
+//  Created by 長谷川司 on 2024/04/02.
 //
 
 import SwiftUI
 
-struct Tutorial2LandmarkRow: View {
-    var landmark: Tutorial2Landmark
+struct TutorialLandmarkRow: View {
+    var landmark: TutorialLandmark
     var body: some View {
         HStack {
             landmark.image
@@ -22,7 +22,7 @@ struct Tutorial2LandmarkRow: View {
 
 #Preview {
     Group {
-        Tutorial2LandmarkRow(landmark: landmarks[0])
-        Tutorial2LandmarkRow(landmark: landmarks[1])
+        TutorialLandmarkRow(landmark: landmarks[0])
+        TutorialLandmarkRow(landmark: landmarks[1])
     }
 }

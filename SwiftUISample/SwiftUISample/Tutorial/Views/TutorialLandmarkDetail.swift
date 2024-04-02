@@ -1,20 +1,20 @@
 //
-//  Tutorial2LandmarkDetail.swift
+//  TutorialLandmarkDetail.swift
 //  SwiftUISample
 //
-//  Created by 長谷川司 on 2024/03/31.
+//  Created by 長谷川司 on 2024/04/02.
 //
 
 import SwiftUI
 
-struct Tutorial2LandmarkDetail: View {
-    var landmark: Tutorial2Landmark
+struct TutorialLandmarkDetail: View {
+    var landmark: TutorialLandmark
     
     var body: some View {
         ScrollView {
-            Tutorial2MapView(coordinate: landmark.locationCoordinate)
+            TutorialMapView(coordinate: landmark.locationCoordinate)
                 .frame(height: 300)
-            Tutorial2CircleImage(image: landmark.image)
+            TutorialCircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom,  -130)
             VStack(alignment: .leading) {
@@ -42,5 +42,5 @@ struct Tutorial2LandmarkDetail: View {
 }
 
 #Preview {
-    Tutorial2LandmarkDetail(landmark: landmarks[0])
+    TutorialLandmarkDetail(landmark: landmarks[0])
 }
