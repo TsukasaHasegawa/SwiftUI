@@ -16,14 +16,15 @@
 		8892BBF62BB70EEB00009CEE /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBF52BB70EEB00009CEE /* TopListView.swift */; };
 		8892BBFB2BB7119C00009CEE /* TopLIstContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBFA2BB7119C00009CEE /* TopLIstContent.swift */; };
 		8892BC0B2BB970F200009CEE /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8892BC0A2BB970F200009CEE /* landmarkData.json */; };
-		8892BC262BBC50B000009CEE /* TutorialLandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC252BBC50B000009CEE /* TutorialLandmarkRow.swift */; };
-		8892BC282BBC50E400009CEE /* TutorialLandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC272BBC50E400009CEE /* TutorialLandmarkList.swift */; };
-		8892BC2A2BBC510600009CEE /* TutorialLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC292BBC510600009CEE /* TutorialLandmarkDetail.swift */; };
 		8892BC2C2BBC514200009CEE /* TutorialContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC2B2BBC514200009CEE /* TutorialContentView.swift */; };
-		8892BC2E2BBC516100009CEE /* TutorialCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC2D2BBC516100009CEE /* TutorialCircleImage.swift */; };
-		8892BC302BBC517F00009CEE /* TutorialMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC2F2BBC517F00009CEE /* TutorialMapView.swift */; };
 		8892BC322BBC51A800009CEE /* TutorialLandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC312BBC51A800009CEE /* TutorialLandMark.swift */; };
 		8892BC342BBC52EF00009CEE /* TutorialModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC332BBC52EF00009CEE /* TutorialModelData.swift */; };
+		8892BC3C2BBC644500009CEE /* TutorialLandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC392BBC644500009CEE /* TutorialLandmarkList.swift */; };
+		8892BC3D2BBC644500009CEE /* TutorialLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC3A2BBC644500009CEE /* TutorialLandmarkDetail.swift */; };
+		8892BC3E2BBC644500009CEE /* TutorialLandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC3B2BBC644500009CEE /* TutorialLandmarkRow.swift */; };
+		8892BC422BBC645800009CEE /* TutorialFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC3F2BBC645700009CEE /* TutorialFavoriteButton.swift */; };
+		8892BC432BBC645800009CEE /* TutorialMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC402BBC645700009CEE /* TutorialMapView.swift */; };
+		8892BC442BBC645800009CEE /* TutorialCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC412BBC645800009CEE /* TutorialCircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +57,15 @@
 		8892BBF52BB70EEB00009CEE /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
 		8892BBFA2BB7119C00009CEE /* TopLIstContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLIstContent.swift; sourceTree = "<group>"; };
 		8892BC0A2BB970F200009CEE /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		8892BC252BBC50B000009CEE /* TutorialLandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialLandmarkRow.swift; sourceTree = "<group>"; };
-		8892BC272BBC50E400009CEE /* TutorialLandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialLandmarkList.swift; sourceTree = "<group>"; };
-		8892BC292BBC510600009CEE /* TutorialLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialLandmarkDetail.swift; sourceTree = "<group>"; };
 		8892BC2B2BBC514200009CEE /* TutorialContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentView.swift; sourceTree = "<group>"; };
-		8892BC2D2BBC516100009CEE /* TutorialCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCircleImage.swift; sourceTree = "<group>"; };
-		8892BC2F2BBC517F00009CEE /* TutorialMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialMapView.swift; sourceTree = "<group>"; };
 		8892BC312BBC51A800009CEE /* TutorialLandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialLandMark.swift; sourceTree = "<group>"; };
 		8892BC332BBC52EF00009CEE /* TutorialModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialModelData.swift; sourceTree = "<group>"; };
+		8892BC392BBC644500009CEE /* TutorialLandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialLandmarkList.swift; sourceTree = "<group>"; };
+		8892BC3A2BBC644500009CEE /* TutorialLandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialLandmarkDetail.swift; sourceTree = "<group>"; };
+		8892BC3B2BBC644500009CEE /* TutorialLandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialLandmarkRow.swift; sourceTree = "<group>"; };
+		8892BC3F2BBC645700009CEE /* TutorialFavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialFavoriteButton.swift; sourceTree = "<group>"; };
+		8892BC402BBC645700009CEE /* TutorialMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialMapView.swift; sourceTree = "<group>"; };
+		8892BC412BBC645800009CEE /* TutorialCircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialCircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,12 +188,9 @@
 		8892BC232BBC500600009CEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8892BC252BBC50B000009CEE /* TutorialLandmarkRow.swift */,
-				8892BC272BBC50E400009CEE /* TutorialLandmarkList.swift */,
-				8892BC292BBC510600009CEE /* TutorialLandmarkDetail.swift */,
+				8892BC382BBC63D400009CEE /* Landmarks */,
+				8892BC372BBC63C600009CEE /* Helper */,
 				8892BC2B2BBC514200009CEE /* TutorialContentView.swift */,
-				8892BC2D2BBC516100009CEE /* TutorialCircleImage.swift */,
-				8892BC2F2BBC517F00009CEE /* TutorialMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +202,26 @@
 				8892BC332BBC52EF00009CEE /* TutorialModelData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8892BC372BBC63C600009CEE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8892BC412BBC645800009CEE /* TutorialCircleImage.swift */,
+				8892BC3F2BBC645700009CEE /* TutorialFavoriteButton.swift */,
+				8892BC402BBC645700009CEE /* TutorialMapView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8892BC382BBC63D400009CEE /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				8892BC3A2BBC644500009CEE /* TutorialLandmarkDetail.swift */,
+				8892BC392BBC644500009CEE /* TutorialLandmarkList.swift */,
+				8892BC3B2BBC644500009CEE /* TutorialLandmarkRow.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,15 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8892BC322BBC51A800009CEE /* TutorialLandMark.swift in Sources */,
+				8892BC442BBC645800009CEE /* TutorialCircleImage.swift in Sources */,
 				8892BBFB2BB7119C00009CEE /* TopLIstContent.swift in Sources */,
-				8892BC2A2BBC510600009CEE /* TutorialLandmarkDetail.swift in Sources */,
 				8892BC2C2BBC514200009CEE /* TutorialContentView.swift in Sources */,
-				8892BC262BBC50B000009CEE /* TutorialLandmarkRow.swift in Sources */,
 				8892BBF62BB70EEB00009CEE /* TopListView.swift in Sources */,
+				8892BC3D2BBC644500009CEE /* TutorialLandmarkDetail.swift in Sources */,
 				8892BBCB2BB6FEC500009CEE /* SwiftUISampleApp.swift in Sources */,
-				8892BC2E2BBC516100009CEE /* TutorialCircleImage.swift in Sources */,
-				8892BC302BBC517F00009CEE /* TutorialMapView.swift in Sources */,
-				8892BC282BBC50E400009CEE /* TutorialLandmarkList.swift in Sources */,
+				8892BC3C2BBC644500009CEE /* TutorialLandmarkList.swift in Sources */,
+				8892BC432BBC645800009CEE /* TutorialMapView.swift in Sources */,
+				8892BC422BBC645800009CEE /* TutorialFavoriteButton.swift in Sources */,
+				8892BC3E2BBC644500009CEE /* TutorialLandmarkRow.swift in Sources */,
 				8892BC342BBC52EF00009CEE /* TutorialModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

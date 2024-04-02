@@ -42,4 +42,5 @@ struct TutorialLandmarkList: View {
 
 #Preview {
     TutorialLandmarkList()
+        .environment(ModelData())
 }
