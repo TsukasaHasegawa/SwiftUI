@@ -1,20 +1,21 @@
 //
-//  Tutorial2LandMark.swift
+//  TutorialLandMark.swift
 //  SwiftUISample
 //
-//  Created by 長谷川司 on 2024/03/31.
+//  Created by 長谷川司 on 2024/04/02.
 //
 
 import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Tutorial2Landmark: Hashable, Codable, Identifiable {
+struct TutorialLandmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {

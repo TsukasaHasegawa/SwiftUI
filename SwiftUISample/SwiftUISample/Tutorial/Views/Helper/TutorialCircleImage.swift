@@ -1,13 +1,13 @@
 //
-//  Tutorial2CircleImage.swift
+//  TutorialCircleImage.swift
 //  SwiftUISample
 //
-//  Created by 長谷川司 on 2024/03/31.
+//  Created by 長谷川司 on 2024/04/02.
 //
 
 import SwiftUI
 
-struct Tutorial2CircleImage: View {
+struct TutorialCircleImage: View {
     var image: Image
     
     var body: some View {
@@ -21,5 +21,5 @@ struct Tutorial2CircleImage: View {
 }
 
 #Preview {
-    Tutorial2CircleImage(image: Image("turtlerock"))
+    TutorialCircleImage(image: Image("turtlerock"))
 }

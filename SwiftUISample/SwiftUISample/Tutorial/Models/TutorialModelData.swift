@@ -1,13 +1,16 @@
 //
-//  ModelData.swift
+//  TutorialModelData.swift
 //  SwiftUISample
 //
-//  Created by 長谷川司 on 2024/03/31.
+//  Created by 長谷川司 on 2024/04/02.
 //
 
 import Foundation
 
-var landmarks: [Tutorial2Landmark] = load("landmarkData.json")
+@Observable
+class ModelData {
+    var landmarks: [TutorialLandmark] = load("landmarkData.json")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
