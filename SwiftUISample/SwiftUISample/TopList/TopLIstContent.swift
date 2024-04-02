@@ -30,6 +30,7 @@ enum TopLIstContent: String, CaseIterable {
         switch self {
         case .tutorial:
             TutorialLandmarkList()
+                .environment(ModelData())
         }
     }
 }

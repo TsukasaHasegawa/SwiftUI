@@ -15,4 +15,5 @@ struct TutorialContentView: View {
 
 #Preview {
     TutorialContentView()
+        .environment(ModelData())
 }

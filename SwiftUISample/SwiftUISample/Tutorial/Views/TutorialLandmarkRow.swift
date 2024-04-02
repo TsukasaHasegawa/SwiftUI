@@ -25,7 +25,8 @@ struct TutorialLandmarkRow: View {
 }
 
 #Preview {
-    Group {
+    let landmarks = ModelData().landmarks
+    return Group {
         TutorialLandmarkRow(landmark: landmarks[0])
         TutorialLandmarkRow(landmark: landmarks[1])
     }
