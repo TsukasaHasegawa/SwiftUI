@@ -9,12 +9,15 @@ import Foundation
 import SwiftUI
 
 enum TopLIstContent: String, CaseIterable {
-    case tutorial
+    case tutorialLandmark
+    case tutorialHike
     
     var title: String {
         switch self {
-        case .tutorial:
-            return "Tutorial"
+        case .tutorialLandmark:
+            return "Tutorial1 - LandMark"
+        case .tutorialHike:
+            return "Tutorial2 - Hike"
         }
     }
     
@@ -28,9 +31,13 @@ enum TopLIstContent: String, CaseIterable {
     @ViewBuilder
     var view: some View {
         switch self {
-        case .tutorial:
+        case .tutorialLandmark:
             TutorialLandmarkList()
                 .environment(ModelData())
+        case .tutorialHike:
+            TutorialHikeView(hike: ModelData().hikes[0])
+                .padding()
+            Spacer()
         }
     }
 }

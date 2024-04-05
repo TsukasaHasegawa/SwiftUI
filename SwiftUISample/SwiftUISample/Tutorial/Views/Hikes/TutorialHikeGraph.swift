@@ -7,7 +7,7 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 
 import SwiftUI
 
-struct HikeGraph: View {
+struct TutorialHikeGraph: View {
     var hike: Hike
     var path: KeyPath<Hike.Observation, Range<Double>>
 
@@ -33,7 +33,7 @@ struct HikeGraph: View {
         return GeometryReader { proxy in
             HStack(alignment: .bottom, spacing: proxy.size.width / 120) {
                 ForEach(Array(data.enumerated()), id: \.offset) { index, observation in
-                    GraphCapsule(
+                    TutorialGraphCapsule(
                         index: index,
                         color: color,
                         height: proxy.size.height,
@@ -62,11 +62,11 @@ func magnitude(of range: Range<Double>) -> Double {
 #Preview {
     let hike = ModelData().hikes[0]
     return Group {
-        HikeGraph(hike: hike, path: \.elevation)
+        TutorialHikeGraph(hike: hike, path: \.elevation)
             .frame(height: 200)
-        HikeGraph(hike: hike, path: \.heartRate)
+        TutorialHikeGraph(hike: hike, path: \.heartRate)
             .frame(height: 200)
-        HikeGraph(hike: hike, path: \.pace)
+        TutorialHikeGraph(hike: hike, path: \.pace)
             .frame(height: 200)
     }
 }

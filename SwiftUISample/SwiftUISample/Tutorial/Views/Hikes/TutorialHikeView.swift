@@ -7,14 +7,14 @@ A view displaying information about a hike, including an elevation graph.
 
 import SwiftUI
 
-struct HikeView: View {
+struct TutorialHikeView: View {
     var hike: Hike
     @State private var showDetail = false
 
     var body: some View {
         VStack {
             HStack {
-                HikeGraph(hike: hike, path: \.elevation)
+                TutorialHikeGraph(hike: hike, path: \.elevation)
                     .frame(width: 50, height: 30)
 
                 VStack(alignment: .leading) {
@@ -32,12 +32,13 @@ struct HikeView: View {
                         .labelStyle(.iconOnly)
                         .imageScale(.large)
                         .rotationEffect(.degrees(showDetail ? 90 : 0))
+                        .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
                 }
             }
 
             if showDetail {
-                HikeDetail(hike: hike)
+                TutorialHikeDetail(hike: hike)
             }
         }
     }
@@ -45,7 +46,7 @@ struct HikeView: View {
 
 #Preview {
     VStack {
-        HikeView(hike: ModelData().hikes[0])
+        TutorialHikeView(hike: ModelData().hikes[0])
             .padding()
         Spacer()
     }

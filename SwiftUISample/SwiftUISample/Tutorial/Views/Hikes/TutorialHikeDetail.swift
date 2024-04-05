@@ -7,7 +7,7 @@ A view showing the details for a hike.
 
 import SwiftUI
 
-struct HikeDetail: View {
+struct TutorialHikeDetail: View {
     let hike: Hike
     @State var dataToShow = \Hike.Observation.elevation
 
@@ -19,7 +19,7 @@ struct HikeDetail: View {
 
     var body: some View {
         VStack {
-            HikeGraph(hike: hike, path: dataToShow)
+            TutorialHikeGraph(hike: hike, path: dataToShow)
                 .frame(height: 200)
 
             HStack(spacing: 25) {
@@ -41,5 +41,5 @@ struct HikeDetail: View {
 }
 
 #Preview {
-    HikeDetail(hike: ModelData().hikes[0])
+    TutorialHikeDetail(hike: ModelData().hikes[0])
 }
