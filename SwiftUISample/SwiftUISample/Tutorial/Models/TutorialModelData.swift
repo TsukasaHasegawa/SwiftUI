@@ -11,6 +11,13 @@ import Foundation
 class ModelData {
     var landmarks: [TutorialLandmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    
+    var categories: [String: [TutorialLandmark]] {
+        Dictionary (
+            grouping: landmarks,
+            by: {$0.category.rawValue}
+        )
+    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

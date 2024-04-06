@@ -36,7 +36,7 @@
 		8892BC642BC0425C00009CEE /* TutorialGraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC602BC0425C00009CEE /* TutorialGraphCapsule.swift */; };
 		8892BC652BC0425C00009CEE /* TutorialHikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC612BC0425C00009CEE /* TutorialHikeGraph.swift */; };
 		8892BC662BC0425C00009CEE /* TutorialHikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC622BC0425C00009CEE /* TutorialHikeView.swift */; };
-		88EE8ABF2BC1ED6C0089F444 /* TutorialCategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ABE2BC1ED6C0089F444 /* TutorialCategoryHome.swift */; };
+		88EE8AC12BC1F0A10089F444 /* TutorialCategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AC02BC1F0A10089F444 /* TutorialCategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +89,7 @@
 		8892BC602BC0425C00009CEE /* TutorialGraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialGraphCapsule.swift; sourceTree = "<group>"; };
 		8892BC612BC0425C00009CEE /* TutorialHikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialHikeGraph.swift; sourceTree = "<group>"; };
 		8892BC622BC0425C00009CEE /* TutorialHikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialHikeView.swift; sourceTree = "<group>"; };
-		88EE8ABE2BC1ED6C0089F444 /* TutorialCategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCategoryHome.swift; sourceTree = "<group>"; };
+		88EE8AC02BC1F0A10089F444 /* TutorialCategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +213,7 @@
 		8892BC232BBC500600009CEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				88EE8ABB2BC1ECFB0089F444 /* Category */,
+				88EE8ABB2BC1ECFB0089F444 /* Categories */,
 				8892BC5E2BC0421900009CEE /* Hikes */,
 				8892BC382BBC63D400009CEE /* Landmarks */,
 				8892BC502BBDA79900009CEE /* Badges */,
@@ -276,12 +276,12 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
-		88EE8ABB2BC1ECFB0089F444 /* Category */ = {
+		88EE8ABB2BC1ECFB0089F444 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				88EE8ABE2BC1ED6C0089F444 /* TutorialCategoryHome.swift */,
+				88EE8AC02BC1F0A10089F444 /* TutorialCategoryHome.swift */,
 			);
-			path = Category;
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,7 +435,7 @@
 				8892BC5C2BC0412900009CEE /* TutorialHike.swift in Sources */,
 				8892BC3E2BBC644500009CEE /* TutorialLandmarkRow.swift in Sources */,
 				8892BC342BBC52EF00009CEE /* TutorialModelData.swift in Sources */,
-				88EE8ABF2BC1ED6C0089F444 /* TutorialCategoryHome.swift in Sources */,
+				88EE8AC12BC1F0A10089F444 /* TutorialCategoryHome.swift in Sources */,
 				8892BC652BC0425C00009CEE /* TutorialHikeGraph.swift in Sources */,
 				8892BC582BBDA81000009CEE /* BadgeBackground.swift in Sources */,
 				8892BC662BC0425C00009CEE /* TutorialHikeView.swift in Sources */,
