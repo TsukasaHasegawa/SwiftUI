@@ -11,6 +11,7 @@ import SwiftUI
 enum TopLIstContent: String, CaseIterable {
     case tutorialLandmark
     case tutorialHike
+    case tutorialCategory
     
     var title: String {
         switch self {
@@ -18,6 +19,8 @@ enum TopLIstContent: String, CaseIterable {
             return "Tutorial1 - LandMark"
         case .tutorialHike:
             return "Tutorial2 - Hike"
+        case .tutorialCategory:
+            return "Tutorial3 - Category"
         }
     }
     
@@ -38,6 +41,9 @@ enum TopLIstContent: String, CaseIterable {
             TutorialHikeView(hike: ModelData().hikes[0])
                 .padding()
             Spacer()
+        case .tutorialCategory:
+            TutorialCategoryHome()
+                .environment(ModelData())
         }
     }
 }
