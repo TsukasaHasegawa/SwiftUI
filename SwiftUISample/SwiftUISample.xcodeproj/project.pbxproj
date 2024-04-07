@@ -43,6 +43,7 @@
 		88EE8ACA2BC2D54B0089F444 /* TutorialProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AC92BC2D54B0089F444 /* TutorialProfileHost.swift */; };
 		88EE8ACC2BC2D6230089F444 /* TutorialProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */; };
 		88EE8ACE2BC2D7780089F444 /* TutorialHikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACD2BC2D7780089F444 /* TutorialHikeBadge.swift */; };
+		88EE8AD02BC2DEAA0089F444 /* TutorialProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		88EE8AC92BC2D54B0089F444 /* TutorialProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileHost.swift; sourceTree = "<group>"; };
 		88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileSummary.swift; sourceTree = "<group>"; };
 		88EE8ACD2BC2D7780089F444 /* TutorialHikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialHikeBadge.swift; sourceTree = "<group>"; };
+		88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +308,7 @@
 			children = (
 				88EE8AC92BC2D54B0089F444 /* TutorialProfileHost.swift */,
 				88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */,
+				88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -448,6 +451,7 @@
 				8892BC442BBC645800009CEE /* TutorialCircleImage.swift in Sources */,
 				8892BBFB2BB7119C00009CEE /* TopLIstContent.swift in Sources */,
 				8892BC2C2BBC514200009CEE /* TutorialContentView.swift in Sources */,
+				88EE8AD02BC2DEAA0089F444 /* TutorialProfileEditor.swift in Sources */,
 				88EE8AC52BC1F5390089F444 /* TutorialCategoryItem.swift in Sources */,
 				8892BBF62BB70EEB00009CEE /* TopListView.swift in Sources */,
 				8892BC3D2BBC644500009CEE /* TutorialLandmarkDetail.swift in Sources */,

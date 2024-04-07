@@ -22,7 +22,7 @@ struct TutorialProfileHost: View {
             if editMode?.wrappedValue == .inactive {
                 TutorialProfileSummary(profile: modelData.profile)
             } else {
-                Text("Profile Editor")
+                TutorialProfileEditor(profile: $draftProfile)
             }
         }
         .padding()
