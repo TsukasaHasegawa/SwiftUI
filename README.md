@@ -18,3 +18,6 @@
 ### Tutorial6
 * Composing complex interfaces
   * https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces
+### Tutorial7
+* Working with UI controls
+  * https://developer.apple.com/tutorials/swiftui/working-with-ui-controls

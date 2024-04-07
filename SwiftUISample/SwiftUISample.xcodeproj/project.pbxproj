@@ -39,6 +39,11 @@
 		88EE8AC12BC1F0A10089F444 /* TutorialCategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AC02BC1F0A10089F444 /* TutorialCategoryHome.swift */; };
 		88EE8AC32BC1F2A20089F444 /* TutorialCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AC22BC1F2A20089F444 /* TutorialCategoryRow.swift */; };
 		88EE8AC52BC1F5390089F444 /* TutorialCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AC42BC1F5390089F444 /* TutorialCategoryItem.swift */; };
+		88EE8AC72BC2D4450089F444 /* TutorialProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AC62BC2D4450089F444 /* TutorialProfile.swift */; };
+		88EE8ACA2BC2D54B0089F444 /* TutorialProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AC92BC2D54B0089F444 /* TutorialProfileHost.swift */; };
+		88EE8ACC2BC2D6230089F444 /* TutorialProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */; };
+		88EE8ACE2BC2D7780089F444 /* TutorialHikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACD2BC2D7780089F444 /* TutorialHikeBadge.swift */; };
+		88EE8AD02BC2DEAA0089F444 /* TutorialProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +99,11 @@
 		88EE8AC02BC1F0A10089F444 /* TutorialCategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCategoryHome.swift; sourceTree = "<group>"; };
 		88EE8AC22BC1F2A20089F444 /* TutorialCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCategoryRow.swift; sourceTree = "<group>"; };
 		88EE8AC42BC1F5390089F444 /* TutorialCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCategoryItem.swift; sourceTree = "<group>"; };
+		88EE8AC62BC2D4450089F444 /* TutorialProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfile.swift; sourceTree = "<group>"; };
+		88EE8AC92BC2D54B0089F444 /* TutorialProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileHost.swift; sourceTree = "<group>"; };
+		88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileSummary.swift; sourceTree = "<group>"; };
+		88EE8ACD2BC2D7780089F444 /* TutorialHikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialHikeBadge.swift; sourceTree = "<group>"; };
+		88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +227,7 @@
 		8892BC232BBC500600009CEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				88EE8AC82BC2D52A0089F444 /* Profiles */,
 				88EE8ABB2BC1ECFB0089F444 /* Categories */,
 				8892BC5E2BC0421900009CEE /* Hikes */,
 				8892BC382BBC63D400009CEE /* Landmarks */,
@@ -233,6 +244,7 @@
 				8892BC312BBC51A800009CEE /* TutorialLandMark.swift */,
 				8892BC332BBC52EF00009CEE /* TutorialModelData.swift */,
 				8892BC5B2BC0412900009CEE /* TutorialHike.swift */,
+				88EE8AC62BC2D4450089F444 /* TutorialProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,6 +288,7 @@
 				8892BC5F2BC0425C00009CEE /* TutorialHikeDetail.swift */,
 				8892BC612BC0425C00009CEE /* TutorialHikeGraph.swift */,
 				8892BC622BC0425C00009CEE /* TutorialHikeView.swift */,
+				88EE8ACD2BC2D7780089F444 /* TutorialHikeBadge.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -288,6 +301,16 @@
 				88EE8AC42BC1F5390089F444 /* TutorialCategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		88EE8AC82BC2D52A0089F444 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				88EE8AC92BC2D54B0089F444 /* TutorialProfileHost.swift */,
+				88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */,
+				88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,13 +447,16 @@
 			files = (
 				8892BC642BC0425C00009CEE /* TutorialGraphCapsule.swift in Sources */,
 				8892BC322BBC51A800009CEE /* TutorialLandMark.swift in Sources */,
+				88EE8ACE2BC2D7780089F444 /* TutorialHikeBadge.swift in Sources */,
 				8892BC442BBC645800009CEE /* TutorialCircleImage.swift in Sources */,
 				8892BBFB2BB7119C00009CEE /* TopLIstContent.swift in Sources */,
 				8892BC2C2BBC514200009CEE /* TutorialContentView.swift in Sources */,
+				88EE8AD02BC2DEAA0089F444 /* TutorialProfileEditor.swift in Sources */,
 				88EE8AC52BC1F5390089F444 /* TutorialCategoryItem.swift in Sources */,
 				8892BBF62BB70EEB00009CEE /* TopListView.swift in Sources */,
 				8892BC3D2BBC644500009CEE /* TutorialLandmarkDetail.swift in Sources */,
 				8892BBCB2BB6FEC500009CEE /* SwiftUISampleApp.swift in Sources */,
+				88EE8AC72BC2D4450089F444 /* TutorialProfile.swift in Sources */,
 				8892BC552BBDA81000009CEE /* BadgeSymbol.swift in Sources */,
 				8892BC562BBDA81000009CEE /* RotatedBadgeSymbol.swift in Sources */,
 				8892BC572BBDA81000009CEE /* Badge.swift in Sources */,
@@ -439,7 +465,9 @@
 				8892BC432BBC645800009CEE /* TutorialMapView.swift in Sources */,
 				8892BC472BBDA00400009CEE /* HexagonParameters.swift in Sources */,
 				8892BC422BBC645800009CEE /* TutorialFavoriteButton.swift in Sources */,
+				88EE8ACC2BC2D6230089F444 /* TutorialProfileSummary.swift in Sources */,
 				8892BC5C2BC0412900009CEE /* TutorialHike.swift in Sources */,
+				88EE8ACA2BC2D54B0089F444 /* TutorialProfileHost.swift in Sources */,
 				8892BC3E2BBC644500009CEE /* TutorialLandmarkRow.swift in Sources */,
 				8892BC342BBC52EF00009CEE /* TutorialModelData.swift in Sources */,
 				88EE8AC12BC1F0A10089F444 /* TutorialCategoryHome.swift in Sources */,

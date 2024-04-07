@@ -11,6 +11,7 @@ import Foundation
 class ModelData {
     var landmarks: [TutorialLandmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    var profile = TutorialProfile.default
     
     var features: [TutorialLandmark] {
         landmarks.filter { $0.isFeatured }
