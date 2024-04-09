@@ -9,9 +9,14 @@ import SwiftUI
 
 struct TutorialPageView<Page: View>: View {
     var pages: [Page]
+    @State private var currentPage = 0
+    
     var body: some View {
-        TutorialPageViewController(pages: pages)
-            .aspectRatio(3/2, contentMode: .fit)
+        VStack {
+            TutorialPageViewController(pages: pages, currentPage: $currentPage)
+            Text("Current Page: \(currentPage)")
+        }
+        .aspectRatio(3/2, contentMode: .fit)
     }
 }
 
