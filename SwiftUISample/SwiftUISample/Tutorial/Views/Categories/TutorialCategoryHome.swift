@@ -14,11 +14,7 @@ struct TutorialCategoryHome: View {
     var body: some View {
         NavigationSplitView {
             List {
-                modelData.features[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                TutorialPageView(pages: modelData.features.map { TutorialFeatureCard(landmark: $0) })
                     .listRowInsets(EdgeInsets())
                 
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
