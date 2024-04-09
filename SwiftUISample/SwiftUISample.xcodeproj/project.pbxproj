@@ -47,6 +47,7 @@
 		88EE8AD32BC588E40089F444 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AD22BC588E40089F444 /* TutorialPageViewController.swift */; };
 		88EE8AD52BC58B7E0089F444 /* TutorialFeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AD42BC58B7E0089F444 /* TutorialFeatureCard.swift */; };
 		88EE8AD92BC58EB30089F444 /* TutorialPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AD82BC58EB30089F444 /* TutorialPageView.swift */; };
+		88EE8ADB2BC59C620089F444 /* TutorialPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ADA2BC59C620089F444 /* TutorialPageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		88EE8AD22BC588E40089F444 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 		88EE8AD42BC58B7E0089F444 /* TutorialFeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFeatureCard.swift; sourceTree = "<group>"; };
 		88EE8AD82BC58EB30089F444 /* TutorialPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageView.swift; sourceTree = "<group>"; };
+		88EE8ADA2BC59C620089F444 /* TutorialPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +328,7 @@
 				88EE8AD22BC588E40089F444 /* TutorialPageViewController.swift */,
 				88EE8AD42BC58B7E0089F444 /* TutorialFeatureCard.swift */,
 				88EE8AD82BC58EB30089F444 /* TutorialPageView.swift */,
+				88EE8ADA2BC59C620089F444 /* TutorialPageControl.swift */,
 			);
 			path = TutorialPageView;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				8892BBCB2BB6FEC500009CEE /* SwiftUISampleApp.swift in Sources */,
 				88EE8AC72BC2D4450089F444 /* TutorialProfile.swift in Sources */,
 				8892BC552BBDA81000009CEE /* BadgeSymbol.swift in Sources */,
+				88EE8ADB2BC59C620089F444 /* TutorialPageControl.swift in Sources */,
 				8892BC562BBDA81000009CEE /* RotatedBadgeSymbol.swift in Sources */,
 				88EE8AD52BC58B7E0089F444 /* TutorialFeatureCard.swift in Sources */,
 				88EE8AD32BC588E40089F444 /* TutorialPageViewController.swift in Sources */,
