@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct TutorialPageView<TutorialPage: View>: View {
-    var pages: [TutorialPage]
+struct TutorialPageView<Page: View>: View {
+    var pages: [Page]
     var body: some View {
         TutorialPageViewController(pages: pages)
             .aspectRatio(3/2, contentMode: .fit)
