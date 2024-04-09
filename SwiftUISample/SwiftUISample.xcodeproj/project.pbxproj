@@ -44,6 +44,9 @@
 		88EE8ACC2BC2D6230089F444 /* TutorialProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */; };
 		88EE8ACE2BC2D7780089F444 /* TutorialHikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACD2BC2D7780089F444 /* TutorialHikeBadge.swift */; };
 		88EE8AD02BC2DEAA0089F444 /* TutorialProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */; };
+		88EE8AD32BC588E40089F444 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AD22BC588E40089F444 /* TutorialPageViewController.swift */; };
+		88EE8AD52BC58B7E0089F444 /* TutorialFeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AD42BC58B7E0089F444 /* TutorialFeatureCard.swift */; };
+		88EE8AD92BC58EB30089F444 /* TutorialPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE8AD82BC58EB30089F444 /* TutorialPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +107,9 @@
 		88EE8ACB2BC2D6230089F444 /* TutorialProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileSummary.swift; sourceTree = "<group>"; };
 		88EE8ACD2BC2D7780089F444 /* TutorialHikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialHikeBadge.swift; sourceTree = "<group>"; };
 		88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialProfileEditor.swift; sourceTree = "<group>"; };
+		88EE8AD22BC588E40089F444 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		88EE8AD42BC58B7E0089F444 /* TutorialFeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFeatureCard.swift; sourceTree = "<group>"; };
+		88EE8AD82BC58EB30089F444 /* TutorialPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +233,7 @@
 		8892BC232BBC500600009CEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				88EE8AD12BC588A80089F444 /* TutorialPageView */,
 				88EE8AC82BC2D52A0089F444 /* Profiles */,
 				88EE8ABB2BC1ECFB0089F444 /* Categories */,
 				8892BC5E2BC0421900009CEE /* Hikes */,
@@ -311,6 +318,16 @@
 				88EE8ACF2BC2DEAA0089F444 /* TutorialProfileEditor.swift */,
 			);
 			path = Profiles;
+			sourceTree = "<group>";
+		};
+		88EE8AD12BC588A80089F444 /* TutorialPageView */ = {
+			isa = PBXGroup;
+			children = (
+				88EE8AD22BC588E40089F444 /* TutorialPageViewController.swift */,
+				88EE8AD42BC58B7E0089F444 /* TutorialFeatureCard.swift */,
+				88EE8AD82BC58EB30089F444 /* TutorialPageView.swift */,
+			);
+			path = TutorialPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,10 +472,13 @@
 				88EE8AC52BC1F5390089F444 /* TutorialCategoryItem.swift in Sources */,
 				8892BBF62BB70EEB00009CEE /* TopListView.swift in Sources */,
 				8892BC3D2BBC644500009CEE /* TutorialLandmarkDetail.swift in Sources */,
+				88EE8AD92BC58EB30089F444 /* TutorialPageView.swift in Sources */,
 				8892BBCB2BB6FEC500009CEE /* SwiftUISampleApp.swift in Sources */,
 				88EE8AC72BC2D4450089F444 /* TutorialProfile.swift in Sources */,
 				8892BC552BBDA81000009CEE /* BadgeSymbol.swift in Sources */,
 				8892BC562BBDA81000009CEE /* RotatedBadgeSymbol.swift in Sources */,
+				88EE8AD52BC58B7E0089F444 /* TutorialFeatureCard.swift in Sources */,
+				88EE8AD32BC588E40089F444 /* TutorialPageViewController.swift in Sources */,
 				8892BC572BBDA81000009CEE /* Badge.swift in Sources */,
 				8892BC3C2BBC644500009CEE /* TutorialLandmarkList.swift in Sources */,
 				8892BC632BC0425C00009CEE /* TutorialHikeDetail.swift in Sources */,
