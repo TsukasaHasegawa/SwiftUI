@@ -12,6 +12,7 @@ enum TopLIstContent: String, CaseIterable {
     case tutorialLandmark
     case tutorialHike
     case tutorialCategory
+    case webView
     
     var title: String {
         switch self {
@@ -21,6 +22,8 @@ enum TopLIstContent: String, CaseIterable {
             return "Tutorial2 - Hike"
         case .tutorialCategory:
             return "Tutorial3 - Category"
+        case .webView:
+            return "Tutorial4 - WebView"
         }
     }
     
@@ -44,6 +47,8 @@ enum TopLIstContent: String, CaseIterable {
         case .tutorialCategory:
             TutorialCategoryHome()
                 .environment(ModelData())
+        case .webView:
+            WebView()
         }
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882E1D972E44F3F9003CE457 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E1D962E44F3F9003CE457 /* WebViewController.swift */; };
+		882E1D992E44F477003CE457 /* WebViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E1D982E44F477003CE457 /* WebViewControllerRepresentable.swift */; };
+		882E1D9B2E44F4CD003CE457 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E1D9A2E44F4CD003CE457 /* WebView.swift */; };
 		8892BBCB2BB6FEC500009CEE /* SwiftUISampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBCA2BB6FEC500009CEE /* SwiftUISampleApp.swift */; };
 		8892BBCF2BB6FEC600009CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8892BBCE2BB6FEC600009CEE /* Assets.xcassets */; };
 		8892BBD22BB6FEC600009CEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8892BBD12BB6FEC600009CEE /* Preview Assets.xcassets */; };
@@ -68,6 +71,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		882E1D962E44F3F9003CE457 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		882E1D982E44F477003CE457 /* WebViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		882E1D9A2E44F4CD003CE457 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		8892BBC72BB6FEC500009CEE /* SwiftUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8892BBCA2BB6FEC500009CEE /* SwiftUISampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleApp.swift; sourceTree = "<group>"; };
 		8892BBCE2BB6FEC600009CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +145,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		882E1D952E44F379003CE457 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				882E1D962E44F3F9003CE457 /* WebViewController.swift */,
+				882E1D982E44F477003CE457 /* WebViewControllerRepresentable.swift */,
+				882E1D9A2E44F4CD003CE457 /* WebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		8892BBBE2BB6FEC500009CEE = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +251,7 @@
 		8892BC232BBC500600009CEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				882E1D952E44F379003CE457 /* WebView */,
 				88EE8AD12BC588A80089F444 /* TutorialPageView */,
 				88EE8AC82BC2D52A0089F444 /* Profiles */,
 				88EE8ABB2BC1ECFB0089F444 /* Categories */,
@@ -465,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882E1D9B2E44F4CD003CE457 /* WebView.swift in Sources */,
 				8892BC642BC0425C00009CEE /* TutorialGraphCapsule.swift in Sources */,
 				8892BC322BBC51A800009CEE /* TutorialLandMark.swift in Sources */,
 				88EE8ACE2BC2D7780089F444 /* TutorialHikeBadge.swift in Sources */,
@@ -483,6 +501,7 @@
 				8892BC562BBDA81000009CEE /* RotatedBadgeSymbol.swift in Sources */,
 				88EE8AD52BC58B7E0089F444 /* TutorialFeatureCard.swift in Sources */,
 				88EE8AD32BC588E40089F444 /* TutorialPageViewController.swift in Sources */,
+				882E1D972E44F3F9003CE457 /* WebViewController.swift in Sources */,
 				8892BC572BBDA81000009CEE /* Badge.swift in Sources */,
 				8892BC3C2BBC644500009CEE /* TutorialLandmarkList.swift in Sources */,
 				8892BC632BC0425C00009CEE /* TutorialHikeDetail.swift in Sources */,
@@ -492,6 +511,7 @@
 				88EE8ACC2BC2D6230089F444 /* TutorialProfileSummary.swift in Sources */,
 				8892BC5C2BC0412900009CEE /* TutorialHike.swift in Sources */,
 				88EE8ACA2BC2D54B0089F444 /* TutorialProfileHost.swift in Sources */,
+				882E1D992E44F477003CE457 /* WebViewControllerRepresentable.swift in Sources */,
 				8892BC3E2BBC644500009CEE /* TutorialLandmarkRow.swift in Sources */,
 				8892BC342BBC52EF00009CEE /* TutorialModelData.swift in Sources */,
 				88EE8AC12BC1F0A10089F444 /* TutorialCategoryHome.swift in Sources */,
