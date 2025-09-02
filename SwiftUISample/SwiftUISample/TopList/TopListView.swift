@@ -8,18 +8,34 @@
 import SwiftUI
 
 struct TopListView: View {
+    @State private var showWebView = false
     var body: some View {
         NavigationView {
-            List(TopLIstContent.allCases, id: \.title) { content in
-                NavigationLink(destination: content.view) {
-                    HStack {
-                        Text(content.title)
-                        Spacer()
+            List(TopListContent.allCases, id: \.title) { content in
+                if content.isModal {
+                    Button {
+                        showWebView = true
+                    } label: {
+                        HStack {
+                            Text(content.title)
+                            Spacer()
+                        }
                     }
+                    .contentShape(Rectangle())
+                } else {
+                    NavigationLink(destination: content.view) {
+                        HStack {
+                            Text(content.title)
+                            Spacer()
+                        }
+                    }
+                    .contentShape(Rectangle())
                 }
-                .contentShape(Rectangle())
             }
             .navigationBarTitle("Top List", displayMode: .inline)
+            .sheet(isPresented: $showWebView) {
+                WebViewControllerRepresentable()
+            }
         }
     }
 }

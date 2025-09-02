@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum TopLIstContent: String, CaseIterable {
+enum TopListContent: String, CaseIterable {
     case tutorialLandmark
     case tutorialHike
     case tutorialCategory
@@ -50,6 +50,10 @@ enum TopLIstContent: String, CaseIterable {
         case .webView:
             WebView()
         }
+    }
+    
+    var isModal: Bool {
+        self == .webView
     }
 }
 
