@@ -48,7 +48,7 @@ enum TopListContent: String, CaseIterable {
             TutorialCategoryHome()
                 .environment(ModelData())
         case .webView:
-            WebView()
+            EmptyView() // WebViewは.sheetでモーダル表示するのでここはEmptyViewにしておく
         }
     }
     

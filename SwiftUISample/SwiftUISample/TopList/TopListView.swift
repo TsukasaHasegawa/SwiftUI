@@ -34,7 +34,7 @@ struct TopListView: View {
             }
             .navigationBarTitle("Top List", displayMode: .inline)
             .sheet(isPresented: $showWebView) {
-                WebViewControllerRepresentable()
+                WebViewControllerRepresentable(urlString: webViewURLString)
             }
         }
     }
