@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882E1D972E44F3F9003CE457 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E1D962E44F3F9003CE457 /* WebViewController.swift */; };
+		882E1D992E44F477003CE457 /* WebViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E1D982E44F477003CE457 /* WebViewControllerRepresentable.swift */; };
+		884E24382E707F56008D6BC7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E24372E707F56008D6BC7 /* Constants.swift */; };
+		884E243A2E75C3EF008D6BC7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E24392E75C3EF008D6BC7 /* WebView.swift */; };
 		8892BBCB2BB6FEC500009CEE /* SwiftUISampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBCA2BB6FEC500009CEE /* SwiftUISampleApp.swift */; };
 		8892BBCF2BB6FEC600009CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8892BBCE2BB6FEC600009CEE /* Assets.xcassets */; };
 		8892BBD22BB6FEC600009CEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8892BBD12BB6FEC600009CEE /* Preview Assets.xcassets */; };
@@ -14,7 +18,7 @@
 		8892BBE62BB6FEC700009CEE /* SwiftUISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBE52BB6FEC700009CEE /* SwiftUISampleUITests.swift */; };
 		8892BBE82BB6FEC700009CEE /* SwiftUISampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBE72BB6FEC700009CEE /* SwiftUISampleUITestsLaunchTests.swift */; };
 		8892BBF62BB70EEB00009CEE /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBF52BB70EEB00009CEE /* TopListView.swift */; };
-		8892BBFB2BB7119C00009CEE /* TopLIstContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBFA2BB7119C00009CEE /* TopLIstContent.swift */; };
+		8892BBFB2BB7119C00009CEE /* TopListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BBFA2BB7119C00009CEE /* TopListContent.swift */; };
 		8892BC0B2BB970F200009CEE /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8892BC0A2BB970F200009CEE /* landmarkData.json */; };
 		8892BC2C2BBC514200009CEE /* TutorialContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC2B2BBC514200009CEE /* TutorialContentView.swift */; };
 		8892BC322BBC51A800009CEE /* TutorialLandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8892BC312BBC51A800009CEE /* TutorialLandMark.swift */; };
@@ -68,6 +72,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		882E1D962E44F3F9003CE457 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		882E1D982E44F477003CE457 /* WebViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		884E24372E707F56008D6BC7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		884E24392E75C3EF008D6BC7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		8892BBC72BB6FEC500009CEE /* SwiftUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8892BBCA2BB6FEC500009CEE /* SwiftUISampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleApp.swift; sourceTree = "<group>"; };
 		8892BBCE2BB6FEC600009CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,7 +86,7 @@
 		8892BBE52BB6FEC700009CEE /* SwiftUISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITests.swift; sourceTree = "<group>"; };
 		8892BBE72BB6FEC700009CEE /* SwiftUISampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8892BBF52BB70EEB00009CEE /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
-		8892BBFA2BB7119C00009CEE /* TopLIstContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLIstContent.swift; sourceTree = "<group>"; };
+		8892BBFA2BB7119C00009CEE /* TopListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListContent.swift; sourceTree = "<group>"; };
 		8892BC0A2BB970F200009CEE /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		8892BC2B2BBC514200009CEE /* TutorialContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentView.swift; sourceTree = "<group>"; };
 		8892BC312BBC51A800009CEE /* TutorialLandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialLandMark.swift; sourceTree = "<group>"; };
@@ -139,6 +147,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		882E1D952E44F379003CE457 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				882E1D962E44F3F9003CE457 /* WebViewController.swift */,
+				882E1D982E44F477003CE457 /* WebViewControllerRepresentable.swift */,
+				884E24392E75C3EF008D6BC7 /* WebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		884E24362E707F1D008D6BC7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				884E24372E707F56008D6BC7 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		8892BBBE2BB6FEC500009CEE = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				8892BBF52BB70EEB00009CEE /* TopListView.swift */,
-				8892BBFA2BB7119C00009CEE /* TopLIstContent.swift */,
+				8892BBFA2BB7119C00009CEE /* TopListContent.swift */,
 			);
 			path = TopList;
 			sourceTree = "<group>";
@@ -225,6 +251,7 @@
 		8892BC222BBC4FF700009CEE /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				884E24362E707F1D008D6BC7 /* Utils */,
 				8892BC232BBC500600009CEE /* Views */,
 				8892BC242BBC500E00009CEE /* Models */,
 				8892BC092BB9707000009CEE /* Resources */,
@@ -235,6 +262,7 @@
 		8892BC232BBC500600009CEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				882E1D952E44F379003CE457 /* WebView */,
 				88EE8AD12BC588A80089F444 /* TutorialPageView */,
 				88EE8AC82BC2D52A0089F444 /* Profiles */,
 				88EE8ABB2BC1ECFB0089F444 /* Categories */,
@@ -469,7 +497,7 @@
 				8892BC322BBC51A800009CEE /* TutorialLandMark.swift in Sources */,
 				88EE8ACE2BC2D7780089F444 /* TutorialHikeBadge.swift in Sources */,
 				8892BC442BBC645800009CEE /* TutorialCircleImage.swift in Sources */,
-				8892BBFB2BB7119C00009CEE /* TopLIstContent.swift in Sources */,
+				8892BBFB2BB7119C00009CEE /* TopListContent.swift in Sources */,
 				8892BC2C2BBC514200009CEE /* TutorialContentView.swift in Sources */,
 				88EE8AD02BC2DEAA0089F444 /* TutorialProfileEditor.swift in Sources */,
 				88EE8AC52BC1F5390089F444 /* TutorialCategoryItem.swift in Sources */,
@@ -478,11 +506,13 @@
 				88EE8AD92BC58EB30089F444 /* TutorialPageView.swift in Sources */,
 				8892BBCB2BB6FEC500009CEE /* SwiftUISampleApp.swift in Sources */,
 				88EE8AC72BC2D4450089F444 /* TutorialProfile.swift in Sources */,
+				884E243A2E75C3EF008D6BC7 /* WebView.swift in Sources */,
 				8892BC552BBDA81000009CEE /* BadgeSymbol.swift in Sources */,
 				88EE8ADB2BC59C620089F444 /* TutorialPageControl.swift in Sources */,
 				8892BC562BBDA81000009CEE /* RotatedBadgeSymbol.swift in Sources */,
 				88EE8AD52BC58B7E0089F444 /* TutorialFeatureCard.swift in Sources */,
 				88EE8AD32BC588E40089F444 /* TutorialPageViewController.swift in Sources */,
+				882E1D972E44F3F9003CE457 /* WebViewController.swift in Sources */,
 				8892BC572BBDA81000009CEE /* Badge.swift in Sources */,
 				8892BC3C2BBC644500009CEE /* TutorialLandmarkList.swift in Sources */,
 				8892BC632BC0425C00009CEE /* TutorialHikeDetail.swift in Sources */,
@@ -492,12 +522,14 @@
 				88EE8ACC2BC2D6230089F444 /* TutorialProfileSummary.swift in Sources */,
 				8892BC5C2BC0412900009CEE /* TutorialHike.swift in Sources */,
 				88EE8ACA2BC2D54B0089F444 /* TutorialProfileHost.swift in Sources */,
+				882E1D992E44F477003CE457 /* WebViewControllerRepresentable.swift in Sources */,
 				8892BC3E2BBC644500009CEE /* TutorialLandmarkRow.swift in Sources */,
 				8892BC342BBC52EF00009CEE /* TutorialModelData.swift in Sources */,
 				88EE8AC12BC1F0A10089F444 /* TutorialCategoryHome.swift in Sources */,
 				8892BC652BC0425C00009CEE /* TutorialHikeGraph.swift in Sources */,
 				8892BC582BBDA81000009CEE /* BadgeBackground.swift in Sources */,
 				88EE8AC32BC1F2A20089F444 /* TutorialCategoryRow.swift in Sources */,
+				884E24382E707F56008D6BC7 /* Constants.swift in Sources */,
 				8892BC662BC0425C00009CEE /* TutorialHikeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

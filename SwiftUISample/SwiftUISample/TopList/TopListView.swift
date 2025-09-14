@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct TopListView: View {
+    @State private var showWebView = false
     var body: some View {
         NavigationView {
-            List(TopLIstContent.allCases, id: \.title) { content in
+            List(TopListContent.allCases, id: \.title) { content in
                 NavigationLink(destination: content.view) {
                     HStack {
                         Text(content.title)
@@ -20,6 +21,9 @@ struct TopListView: View {
                 .contentShape(Rectangle())
             }
             .navigationBarTitle("Top List", displayMode: .inline)
+            .sheet(isPresented: $showWebView) {
+                WebViewControllerRepresentable(urlString: webViewURLString)
+            }
         }
     }
 }
