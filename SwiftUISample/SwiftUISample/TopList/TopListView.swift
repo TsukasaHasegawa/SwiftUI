@@ -12,25 +12,13 @@ struct TopListView: View {
     var body: some View {
         NavigationView {
             List(TopListContent.allCases, id: \.title) { content in
-                if content.isModal {
-                    Button {
-                        showWebView = true
-                    } label: {
-                        HStack {
-                            Text(content.title)
-                            Spacer()
-                        }
+                NavigationLink(destination: content.view) {
+                    HStack {
+                        Text(content.title)
+                        Spacer()
                     }
-                    .contentShape(Rectangle())
-                } else {
-                    NavigationLink(destination: content.view) {
-                        HStack {
-                            Text(content.title)
-                            Spacer()
-                        }
-                    }
-                    .contentShape(Rectangle())
                 }
+                .contentShape(Rectangle())
             }
             .navigationBarTitle("Top List", displayMode: .inline)
             .sheet(isPresented: $showWebView) {

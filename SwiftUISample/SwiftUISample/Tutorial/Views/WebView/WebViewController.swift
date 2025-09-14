@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class WebViewController: UIViewController {
+final class WebViewController: UIViewController {
     
     private var webView: WKWebView!
     private var toolbar: UIToolbar!
@@ -65,13 +65,19 @@ class WebViewController: UIViewController {
             target: self,
             action: #selector(goForward)
         )
+        let close = UIBarButtonItem(
+            image: UIImage(systemName: "xmark"),
+            style: .done,
+            target: self,
+            action: #selector(dismissSelf)
+        )
         let refresh = UIBarButtonItem(
             barButtonSystemItem: .refresh,
             target: self,
             action: #selector(refresh)
         )
         let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-        toolbar.setItems([back, forward, space, refresh], animated: false)
+        toolbar.setItems([space, back, space, forward, space, space, space, close, space, refresh, space], animated: false)
         back.isEnabled = false
         forward.isEnabled = false
     }
@@ -111,6 +117,11 @@ class WebViewController: UIViewController {
     private func refresh() {
         webView.reload()
     }
+    
+    @objc
+    private func dismissSelf() {
+        dismiss(animated: true)
+    }
 }
 
 // MARK: - WKUIDelegate
@@ -126,8 +137,8 @@ extension WebViewController: WKNavigationDelegate {
         activityIndicator.stopAnimating()
         
         if let items = toolbar.items {
-            items[0].isEnabled = webView.canGoBack
-            items[2].isEnabled = webView.canGoForward
+            items[1].isEnabled = webView.canGoBack
+            items[3].isEnabled = webView.canGoForward
         }
     }
     
